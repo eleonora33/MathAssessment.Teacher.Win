@@ -59,16 +59,14 @@ curl -X POST "http://localhost:port/api/exam/import/xml" \
 
 Database migrations (SQL scripts)
 ---------------------------------
-If you included a database migration folder or raw SQL scripts in the repository, they are expected under the Data project. Common locations:
-- MathAssessment.Data/Migrations/*.sql
-- MathAssessment.Data/Scripts/*.sql
+Database migration SQL scripts are located in the DatabaseMigration folder at the solution root (e.g. ./DatabaseMigration/*.sql).
 
-Apply the SQL scripts to your target database before running imports. Example steps:
+Apply these scripts to your target database before running imports. Example steps:
 1. Open SQL Server Management Studio (SSMS) and connect to your SQL Server instance.
-2. Open the relevant .sql file from the migrations folder.
-3. Execute the script to create required tables and stored procedures used by the repository.
+2. Open the relevant .sql file(s) from the DatabaseMigration folder.
+3. Execute the script(s) to create required tables and stored procedures used by the repository.
 
-If your repository uses a different folder for migration scripts, look for a "Migrations" or "Scripts" folder in the MathAssessment.Data project.
+If your environment uses a different folder or deployment process, follow your project's database deployment instructions.
 
 Test XML files
 --------------
