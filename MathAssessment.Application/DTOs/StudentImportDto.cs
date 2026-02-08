@@ -10,6 +10,6 @@ namespace MathAssessment.App.DTOs
     public class StudentImportDto
     {
         public string StudentCode { get; set; }
-        public List<ExamImportDto> Exams { get; set; } = new List<ExamImportDto>();
+        public IList<ExamImportDto> Exams { get; set; } = new List<ExamImportDto>();
     }
 }

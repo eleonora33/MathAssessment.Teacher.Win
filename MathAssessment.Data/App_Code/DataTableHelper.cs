@@ -7,8 +7,7 @@ namespace MathAssessment.Data.App_Code
     public static class DataTableHelper
     {
         
-        public static DataTable CreateDataTable(
-            Dictionary<string, Type> columnNameWithType)
+        public static DataTable CreateDataTable(Dictionary<string, Type> columnNameWithType)
         {
             if (columnNameWithType == null)
                 throw new ArgumentNullException(nameof(columnNameWithType));
@@ -26,9 +25,7 @@ namespace MathAssessment.Data.App_Code
             return resultTable;
         }
 
-        public static void AddRowToTable(
-            DataTable targetTable,
-            params object[] rowCellValues)
+        public static void AddRowToTable(DataTable targetTable, params object[] rowCellValues)
         {
             if (targetTable == null)
                 throw new ArgumentNullException(nameof(targetTable));

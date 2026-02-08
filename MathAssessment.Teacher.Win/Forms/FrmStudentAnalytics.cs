@@ -149,7 +149,7 @@ namespace MathAssessment.Teacher.Win.Forms
                 ApplyToRow = true,
                 Column = col,
                 Name = "CorrectRow",
-                Rule = new DevExpress.XtraEditors.FormatConditionRuleValue
+                Rule = new FormatConditionRuleValue
                 {
                     Condition = FormatCondition.Equal,
                     Value1 = true,

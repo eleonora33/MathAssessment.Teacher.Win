@@ -48,12 +48,9 @@
     <Compile Include="DTOs\StudentImportDto.cs" />
     <Compile Include="DTOs\TaskImportDto.cs" />
     <Compile Include="DTOs\TeacherImportDto.cs" />
-    <Compile Include="Models\ImportPayload.cs" />
     <Compile Include="Services\DatabaseImportService.cs" />
     <Compile Include="Services\StudentAnalyticsService.cs" />
     <Compile Include="Services\XmlImportService.cs" />
-    <Compile Include="Models\StudentExamPayload.cs" />
-    <Compile Include="Models\TaskPayload.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MathAssessment.Data\MathAssessment.Data.csproj">

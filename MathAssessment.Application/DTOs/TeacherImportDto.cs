@@ -9,6 +9,6 @@ namespace MathAssessment.App.DTOs
     public class TeacherImportDto
     {
         public string TeacherCode { get; set; }
-        public List<StudentImportDto> Students { get; set; } = new List<StudentImportDto>();
+        public IList<StudentImportDto> Students { get; set; } = new List<StudentImportDto>();
     }
 }
