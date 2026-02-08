@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StudentExam>
+  <Student>
+    <StudentCode>STU-001</StudentCode>
+    <FirstName>Anna</FirstName>
+    <LastName>Petrova</LastName>
+  </Student>
+
+  <Exam>
+    <ExamCode>MATH-2025-01</ExamCode>
+    <ImportedAtUtc>2026-02-01T10:15:00Z</ImportedAtUtc>
+
+    <Tasks>
+      <Task>
+        <TaskCode>1</TaskCode>
+        <Expression>2 + 3</Expression>
+        <StudentAnswer>5</StudentAnswer>
+        <CorrectAnswer>5</CorrectAnswer>
+        <IsCorrect>true</IsCorrect>
+      </Task>
+
+      <Task>
+        <TaskCode>2</TaskCode>
+        <Expression>10 - 4</Expression>
+        <StudentAnswer>5</StudentAnswer>
+        <CorrectAnswer>6</CorrectAnswer>
+        <IsCorrect>false</IsCorrect>
+        <ErrorMessage>Incorrect subtraction</ErrorMessage>
+      </Task>
+    </Tasks>
+  </Exam>
+</StudentExam>

@@ -5,8 +5,8 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Windows.Forms;
-using MathAssessment.App.DTOs;
-using MathAssessment.App.Services;
+using MathAssessment.Application.DTOs;
+using MathAssessment.Application.Services;
 using MathAssessment.Data.App_Code;
 using System.Xml.Linq;
 
@@ -89,9 +89,7 @@ namespace MathAssessment.Teacher.Win.Forms
             try
             {
                 if (!TryValidateXml(selectedXmlPath, out XDocument doc))
-                {
                     return;
-                }
 
                 var xmlImportService = new XmlImportService();
                 var mathExpressionProcessor = new MathExpressionProcessor();

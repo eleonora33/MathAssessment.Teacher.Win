@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StudentExam>
+  <Student>
+    <StudentCode></StudentCode>
+  </Student>
+
+  <Exam>
+    <ExamCode></ExamCode>
+    <Tasks>
+      <Task>
+        <Expression>2 +</Expression>
+        <StudentAnswer>?</StudentAnswer>
+      </Task>
+    </Tasks>
+  </Exam>
+</StudentExam>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExamDetails ExamId="1001">
+  <ExamCode>MATH-2025-02</ExamCode>
+  <ImportedAtUtc>2026-02-05T11:00:00Z</ImportedAtUtc>
+  <TotalTasks>4</TotalTasks>
+  <CorrectTasks>3</CorrectTasks>
+  <ScorePercent>75</ScorePercent>
+
+  <Tasks>
+    <Task TaskCode="1" IsCorrect="true">
+      <ExpressionText>5 * 6</ExpressionText>
+      <StudentAnswerText>30</StudentAnswerText>
+      <CorrectAnswer>30</CorrectAnswer>
+    </Task>
+
+    <Task TaskCode="2" IsCorrect="false">
+      <ExpressionText>12 / 4</ExpressionText>
+      <StudentAnswerText>2</StudentAnswerText>
+      <CorrectAnswer>3</CorrectAnswer>
+      <ErrorMessage>Division error</ErrorMessage>
+    </Task>
+
+    <Task TaskCode="3" IsCorrect="true">
+      <ExpressionText>7 + 8</ExpressionText>
+      <StudentAnswerText>15</StudentAnswerText>
+      <CorrectAnswer>15</CorrectAnswer>
+    </Task>
+  </Tasks>
+</ExamDetails>

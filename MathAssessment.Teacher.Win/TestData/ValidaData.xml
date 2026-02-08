@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Teacher ID="11111">
+  <Students>
+
+    <Student ID="STU-001">
+      <Exam Id="EX-1">
+        <Task id="1">2+3 = 5</Task>
+        <Task id="2">6/4 = 1.5</Task>
+        <Task id="3">10-7 = 3</Task>
+        <Task id="4">5*2 = 10</Task>
+      </Exam>
+    </Student>
+
+    <Student ID="STU-002">
+      <Exam Id="EX-1">
+        <Task id="1">2+3 = 6</Task>
+        <Task id="2">6/4 = 1</Task>
+        <Task id="3">10-7 = 3</Task>
+        <Task id="4">5*2 = 10</Task>
+      </Exam>
+    </Student>
+
+    <Student ID="STU-003">
+      <Exam Id="EX-2">
+        <Task id="1">8/2 = 4</Task>
+        <Task id="2">3+3*2 = 9</Task>
+        <Task id="3">20/0 = 0</Task>
+      </Exam>
+    </Student>
+
+  </Students>
+</Teacher>

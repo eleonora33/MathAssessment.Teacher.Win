@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MathAssessment.App.DTOs
+namespace MathAssessment.Application.DTOs
 {
     public class ExamImportDto
     {

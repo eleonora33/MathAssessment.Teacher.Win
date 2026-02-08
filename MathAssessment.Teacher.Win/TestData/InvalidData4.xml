@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExamDetails ExamId="2001">
+  <ExamCode>MATH-EMPTY</ExamCode>
+  <ImportedAtUtc>2026-02-10T08:00:00Z</ImportedAtUtc>
+  <TotalTasks>0</TotalTasks>
+  <CorrectTasks>0</CorrectTasks>
+  <ScorePercent>0</ScorePercent>
+  <Tasks />
+</ExamDetails>

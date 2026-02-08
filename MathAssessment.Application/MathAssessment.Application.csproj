@@ -51,6 +51,7 @@
     <Compile Include="Services\DatabaseImportService.cs" />
     <Compile Include="Services\StudentAnalyticsService.cs" />
     <Compile Include="Services\XmlImportService.cs" />
+    <Compile Include="Utils\Constants\IntegrationSource.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MathAssessment.Data\MathAssessment.Data.csproj">

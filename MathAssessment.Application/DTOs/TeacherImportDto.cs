@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MathAssessment.App.DTOs
+namespace MathAssessment.Application.DTOs
 {
     public class TeacherImportDto
     {

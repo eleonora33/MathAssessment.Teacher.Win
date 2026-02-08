@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathAssessment.Teacher.Win"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathAssessment.MathEngine", "MathAssessment.MathEngine\MathAssessment.MathEngine.csproj", "{7B1865D8-BD15-45B3-BBE7-63637067EA42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathAssessment.App", "MathAssessment.Application\MathAssessment.App.csproj", "{E3F91DD7-19D3-43AA-8F55-AFFB95B61A87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathAssessment.Application", "MathAssessment.Application\MathAssessment.Application.csproj", "{E3F91DD7-19D3-43AA-8F55-AFFB95B61A87}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathAssessment.Data", "MathAssessment.Data\MathAssessment.Data.csproj", "{835D4FF5-BCFE-4A75-9815-0323CFBF87AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathAssessment.WebAPI", "MathAssessment.WebAPI\MathAssessment.WebAPI.csproj", "{5615B5AF-F85A-4826-A722-473F9C62E7C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{835D4FF5-BCFE-4A75-9815-0323CFBF87AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{835D4FF5-BCFE-4A75-9815-0323CFBF87AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{835D4FF5-BCFE-4A75-9815-0323CFBF87AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5615B5AF-F85A-4826-A722-473F9C62E7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5615B5AF-F85A-4826-A722-473F9C62E7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5615B5AF-F85A-4826-A722-473F9C62E7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5615B5AF-F85A-4826-A722-473F9C62E7C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StudentExams StudentCode="STU-002">
+  <Exam>
+    <ExamCode>MATH-2025-01</ExamCode>
+    <ImportedAtUtc>2026-01-15T09:30:00Z</ImportedAtUtc>
+    <TotalTasks>5</TotalTasks>
+    <CorrectTasks>4</CorrectTasks>
+    <ScorePercent>80</ScorePercent>
+  </Exam>
+
+  <Exam>
+    <ExamCode>MATH-2025-02</ExamCode>
+    <ImportedAtUtc>2026-02-05T11:00:00Z</ImportedAtUtc>
+    <TotalTasks>10</TotalTasks>
+    <CorrectTasks>9</CorrectTasks>
+    <ScorePercent>90</ScorePercent>
+  </Exam>
+</StudentExams>

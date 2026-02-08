@@ -174,9 +174,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MathAssessment.Application\MathAssessment.App.csproj">
+    <ProjectReference Include="..\MathAssessment.Application\MathAssessment.Application.csproj">
       <Project>{E3F91DD7-19D3-43AA-8F55-AFFB95B61A87}</Project>
-      <Name>MathAssessment.App</Name>
+      <Name>MathAssessment.Application</Name>
     </ProjectReference>
     <ProjectReference Include="..\MathAssessment.Data\MathAssessment.Data.csproj">
       <Project>{835d4ff5-bcfe-4a75-9815-0323cfbf87ab}</Project>
@@ -187,7 +187,14 @@
       <Name>MathAssessment.MathEngine</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="TestData\InvalidData1.xml" />
+    <Content Include="TestData\InvalidData2.xml" />
+    <Content Include="TestData\InvalidData3.xml" />
+    <Content Include="TestData\InvalidData4.xml" />
+    <Content Include="TestData\InvalidData5.xml" />
+    <Content Include="TestData\ValidaData.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,4 +1,4 @@
-﻿using MathAssessment.App.DTOs;
+﻿using MathAssessment.Application.DTOs;
 using MathAssessment.MathEngine;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace MathAssessment.App.Services
+namespace MathAssessment.Application.Services
 {
     public class XmlImportService
     {
