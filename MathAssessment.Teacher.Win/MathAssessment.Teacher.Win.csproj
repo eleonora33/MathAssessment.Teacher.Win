@@ -187,14 +187,6 @@
       <Name>MathAssessment.MathEngine</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="TestData\InvalidData1.xml" />
-    <Content Include="TestData\InvalidData2.xml" />
-    <Content Include="TestData\InvalidData3.xml" />
-    <Content Include="TestData\InvalidData4.xml" />
-    <Content Include="TestData\InvalidData5.xml" />
-    <Content Include="TestData\ValidaData.xml" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
