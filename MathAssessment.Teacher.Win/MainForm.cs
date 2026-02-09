@@ -26,7 +26,6 @@ namespace MathAssessment.Teacher.Win
             }
             panelContent.Controls.Clear();
 
-            // Create the import form and embed it into the panel
             var frmImportExams = new FrmImportExams
             {
                 TopLevel = false,
