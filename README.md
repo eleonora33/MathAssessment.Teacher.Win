@@ -25,6 +25,7 @@ Prerequisites
 - Visual Studio (2017/2019/2022) with .NET Framework 4.8 workload
 - SQL Server (or connection configured in the repository layer) if you intend to save imports to the DB
 - DevExpress WinForms runtime/components required to run MathAssessment.Teacher.Win (ensure DevExpress assemblies are installed or available during build/run)
+  - DevExpress version used by this project: 25.2 — use the DevExpress 25.2 runtime or a compatible set of assemblies.
 
 Building and running
 --------------------
